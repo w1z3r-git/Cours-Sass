@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+  .header-left{
+    width: 50%;
+    @include centerChild();
+    h1{
+      font-size: 4rem;
+      font-weight: 500;
+    }
+    h2{
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: $colorbtn;
+      margin: 10px 0;
+    }
+  }
+  .header-right{
+    width: 50%;
+    #modem{
+      width: 100%;
+    }
+  }
+}

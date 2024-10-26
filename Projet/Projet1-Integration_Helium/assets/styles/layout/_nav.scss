@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    transition: .3s ease;
+    li{
+      cursor: pointer;
+      &:hover{
+        color: $colorbtn;
+      }
+    }
+  }
+}

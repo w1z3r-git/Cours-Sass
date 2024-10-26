@@ -1,0 +1,17 @@
+button{
+  background: $colorbtn;
+  color: $colortxt;
+  outline: none;
+  border: 1px solid transparent;
+  margin: 5px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease;
+  &:hover{
+    background: transparent;
+    border: 1px solid $colorbtn;
+  }
+}

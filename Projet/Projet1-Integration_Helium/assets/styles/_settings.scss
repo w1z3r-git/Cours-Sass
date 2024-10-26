@@ -1,0 +1,26 @@
+$colortxt: rgb(250, 250, 250);
+$colorbtn: rgb(66, 76, 255);
+$colorbg: rgb(28, 28, 28);
+$colorft: rgb(13, 13, 13);
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@mixin centerChild{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: $colorbg;
+  color: $colortxt;
+}

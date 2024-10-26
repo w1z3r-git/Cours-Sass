@@ -1,0 +1,45 @@
+.infos{
+  background: $colorft;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  .infos-left{
+    width: 33%;
+    h3{
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+  .infos-right{
+    width: 67%;
+    h3{
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    .investors{
+      @include centerChild();
+      height: 100px;
+      .investors-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        img {
+          height: 60px;
+          transition: .3s ease;
+          cursor: pointer;
+          &:hover{
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: rgb(28, 28, 28);
+  color: rgb(250, 250, 250);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 20px;
+}
+header .header-left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .header-left h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+header .header-left h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(66, 76, 255);
+  margin: 10px 0;
+}
+header .header-right {
+  width: 50%;
+}
+header .header-right #modem {
+  width: 100%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: rgb(66, 76, 255);
+}
+
+.infos {
+  background: rgb(13, 13, 13);
+  margin: 10px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 20px;
+}
+.infos .infos-left {
+  width: 33%;
+}
+.infos .infos-left h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.infos .infos-left .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.infos .infos-right {
+  width: 67%;
+}
+.infos .infos-right h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.infos .infos-right .investors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+.infos .infos-right .investors .investors-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.infos .infos-right .investors .investors-container img {
+  height: 60px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.infos .infos-right .investors .investors-container img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+button {
+  background: rgb(66, 76, 255);
+  color: rgb(250, 250, 250);
+  outline: none;
+  border: 1px solid transparent;
+  margin: 5px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+button:hover {
+  background: transparent;
+  border: 1px solid rgb(66, 76, 255);
+}/*# sourceMappingURL=index.css.map */
